@@ -278,6 +278,166 @@
     .project-page { min-height: 0; }
     .screenshot-wrap { break-inside: avoid; }
   }
+
+  /* ─── MOBILE RESPONSIVE ───────────────────── */
+  @media (max-width: 1024px) {
+    .cover-body {
+      padding: 60px 48px 32px;
+    }
+    .cover-name {
+      font-size: 56px;
+    }
+    .cover-footer {
+      padding: 24px 48px;
+    }
+    .section-page {
+      padding: 60px 48px;
+    }
+    .section-title {
+      font-size: 48px;
+    }
+    .section-decor {
+      font-size: 200px;
+    }
+    .project-page {
+      padding: 40px 48px;
+    }
+    .proj-num {
+      font-size: 72px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cover-body {
+      padding: 48px 24px 24px;
+    }
+    .cover-eyebrow {
+      font-size: 10px;
+      margin-bottom: 20px;
+    }
+    .cover-name {
+      font-size: 42px;
+    }
+    .cover-role {
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+    .cover-stats {
+      flex-wrap: wrap;
+      gap: 24px 32px;
+    }
+    .stat-num {
+      font-size: 28px;
+    }
+    .cover-footer {
+      padding: 20px 24px;
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+    .cover-bio {
+      text-align: center;
+    }
+    .section-page {
+      padding: 48px 24px;
+    }
+    .section-title {
+      font-size: 36px;
+    }
+    .section-desc {
+      font-size: 14px;
+    }
+    .section-decor {
+      font-size: 120px;
+      right: -20px;
+    }
+    .section-meta {
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .smeta-val {
+      font-size: 22px;
+    }
+    .project-page {
+      padding: 32px 20px;
+      gap: 20px;
+    }
+    .proj-header {
+      grid-template-columns: 1fr;
+    }
+    .proj-num {
+      font-size: 48px;
+      text-align: left;
+      order: -1;
+      margin-top: 0;
+      margin-bottom: -8px;
+    }
+    .proj-title {
+      font-size: 24px;
+    }
+    .proj-desc {
+      font-size: 13px;
+    }
+    .proj-tech {
+      gap: 6px;
+    }
+    .tech-chip {
+      font-size: 10px;
+      padding: 3px 10px;
+    }
+    .screenshots.two,
+    .screenshots.mixed {
+      grid-template-columns: 1fr;
+    }
+    .screenshot-wrap img {
+      max-height: 300px;
+    }
+    .suite-intro {
+      padding: 16px 20px;
+    }
+    /* Mobile grid for project sections */
+    div[style*="grid-template-columns:1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .cover-name {
+      font-size: 32px;
+    }
+    .cover-role {
+      font-size: 13px;
+    }
+    .stat-num {
+      font-size: 24px;
+    }
+    .stat-label {
+      font-size: 9px;
+    }
+    .section-title {
+      font-size: 28px;
+    }
+    .section-decor {
+      display: none;
+    }
+    .proj-num {
+      font-size: 36px;
+    }
+    .proj-title {
+      font-size: 20px;
+    }
+    .proj-eyebrow {
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      font-size: 9px;
+      padding: 2px 8px;
+    }
+    .screenshot-wrap img {
+      max-height: 250px;
+    }
+  }
 </style>
 </head>
 <body>
